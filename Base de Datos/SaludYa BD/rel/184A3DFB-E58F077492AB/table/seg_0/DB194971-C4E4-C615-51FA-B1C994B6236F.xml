@@ -1,0 +1,332 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB194971-C4E4-C615-51FA-B1C994B6236F" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="MEDICOS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>MEDICOS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MEDICO" id="6BB6C573-7B9D-634F-CE05-B337DD397249">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>ID_MEDICO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_MEDICOS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CENTRO" id="D3206AF4-E65A-4B64-C973-214589473F4D">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>ID_CENTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8677CA49-DDC3-B504-E18E-B338704FA254" referredColumn="B1CDBC2D-4A48-EDB4-8092-B9182EFD6480"/>
+</associations>
+</Column>
+<Column name="TIPO_DOCUMENTO" id="3D399ADD-4E7B-74F3-BBD7-F46AC15E4869">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>TIPO_DOCUMENTO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<defaultValue>&apos;CC&apos;</defaultValue>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDULA" id="01F778F9-318F-6B0B-0DB8-13BD6C16BAEA">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>CEDULA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_NOMBRE" id="EA65564E-FE21-E8FC-89B3-4BBC6DDA9BE8">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>PRIMER_NOMBRE</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_NOMBRE" id="4956647F-DCB8-086F-7E22-3AEBCC0F19C2">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>SEGUNDO_NOMBRE</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_APELLIDO" id="EF84CB71-26FB-0977-03C0-DE99CF10E60A">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>PRIMER_APELLIDO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_APELLIDO" id="B444F4CA-0304-BD16-3AF9-2D53E1106574">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>SEGUNDO_APELLIDO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTRO_MEDICO" id="9D977A3D-675C-8C1D-8C99-EA279D73471B">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>REGISTRO_MEDICO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPECIALIDAD" id="7DFD854C-4D45-9B19-1A5C-3A066EAA3242">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>ESPECIALIDAD</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="731AA4ED-406C-5F83-A614-CCF11455B0D9">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="CF5BCACE-5138-0EF1-7DE3-A5918B6F7399">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>CORREO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLAVE_HASH" id="851E9323-1266-5344-C2E6-8DC57E18D5F8">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>CLAVE_HASH</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="0F753DB2-4FBF-6706-DE92-933802CFB5CC">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<constraintName>CK_MEDICOS_ESTADO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;ACTIVO&apos;" description=""/>
+<valueDef value="&apos;INACTIVO&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="6F6D2141-3A61-2FCC-7424-35230A6AF9A6">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>MEDICOS</sourceObjSchema>
+<sourceObjName>FECHA_REGISTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF32720D-470F-DBEC-8258-97E806659606" name="PK_MEDICOS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_MEDICOS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BB6C573-7B9D-634F-CE05-B337DD397249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10700881-39F7-81E5-6216-984CAB038D58" name="UQ_MEDICOS_CEDULA">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_MEDICOS_CEDULA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F778F9-318F-6B0B-0DB8-13BD6C16BAEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3AC157C-E792-3623-8510-CCCC4072571B" name="UQ_MEDICOS_REGISTRO">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_MEDICOS_REGISTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D977A3D-675C-8C1D-8C99-EA279D73471B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13F78AE9-21F5-1A1A-5A5C-85E1D7A40109" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="PK_MEDICOS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_MEDICOS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BB6C573-7B9D-634F-CE05-B337DD397249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE5A8D3D-7B38-9E5C-F5EB-720FA0E3DBCF" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="UQ_MEDICOS_CEDULA">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_MEDICOS_CEDULA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F778F9-318F-6B0B-0DB8-13BD6C16BAEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06654826-EB58-2C83-86AF-4DDEAF50F9AA" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="UQ_MEDICOS_REGISTRO">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_MEDICOS_REGISTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D977A3D-675C-8C1D-8C99-EA279D73471B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE5D6AA7-8405-BEB4-C75E-96910118C19A" name="FK_MEDICOS_CENTRO">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3206AF4-E65A-4B64-C973-214589473F4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DOCUMENTOS_GENERADOS" directorySegmentName="seg_0" id="C6E4BDBA-637D-C515-E314-69FA5182BD41">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<schemaObject>60588CFF-194A-5447-DED2-945297AC3C8E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BF2252AD-5B87-1515-E3B7-0C881D0EB600</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_DOCUMENTO" id="057C935E-EE81-9942-3B97-4835E95A335D">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_DOCUMENTOS_GENERADOS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="RUTA_ARCHIVO" id="34E60879-9492-7906-5A00-41E65FD30681">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PACIENTE" id="9355AE1F-7636-9F7E-089A-29538788EC58">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_REFERENCIA" id="A951D2CD-3D50-99C0-6F06-0DCF63D64DC7">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_GENERACION" id="C24D7C3A-77D2-8D56-FBB5-E9D1CA4683FE">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TIPO" id="E0316080-BB85-E21A-76A5-6CBCA9B7313F">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_DOCUMENTOS_GENERADOS" id="F5F6FDED-A150-8269-5B67-9F4B55AF98FE">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<schemaObject>60588CFF-194A-5447-DED2-945297AC3C8E</schemaObject>
+<segment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DOCS_PACIENTE" id="2BF320D4-28EA-0A45-5237-9C562A387C4A">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DOCUMENTOS_GENERADOS" id="C969F541-25DC-1884-C537-C173E70807B4">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<segment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+<existingIndex>F5F6FDED-A150-8269-5B67-9F4B55AF98FE</existingIndex>
+<indexSegment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

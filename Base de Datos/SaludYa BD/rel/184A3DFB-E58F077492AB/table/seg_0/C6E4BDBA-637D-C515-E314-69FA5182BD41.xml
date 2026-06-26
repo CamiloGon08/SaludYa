@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6E4BDBA-637D-C515-E314-69FA5182BD41" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="DOCUMENTOS_GENERADOS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>DOCUMENTOS_GENERADOS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DOCUMENTO" id="057C935E-EE81-9942-3B97-4835E95A335D">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>DOCUMENTOS_GENERADOS</sourceObjSchema>
+<sourceObjName>ID_DOCUMENTO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_DOCUMENTOS_GENERADOS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="9355AE1F-7636-9F7E-089A-29538788EC58">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>DOCUMENTOS_GENERADOS</sourceObjSchema>
+<sourceObjName>ID_PACIENTE</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F217A76-16B2-D14E-9AFF-5E8A14CE5ECC" referredColumn="E1C60D63-530C-D5A7-7638-E24A8236FBC7"/>
+</associations>
+</Column>
+<Column name="TIPO" id="E0316080-BB85-E21A-76A5-6CBCA9B7313F">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>DOCUMENTOS_GENERADOS</sourceObjSchema>
+<sourceObjName>TIPO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<constraintName>CK_DOCS_TIPO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;CERTIFICADO&apos;" description=""/>
+<valueDef value="&apos;INFORME&apos;" description=""/>
+<valueDef value="&apos;ORDEN&apos;" description=""/>
+<valueDef value="&apos;RECETA&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REFERENCIA" id="A951D2CD-3D50-99C0-6F06-0DCF63D64DC7">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>DOCUMENTOS_GENERADOS</sourceObjSchema>
+<sourceObjName>ID_REFERENCIA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUTA_ARCHIVO" id="34E60879-9492-7906-5A00-41E65FD30681">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>DOCUMENTOS_GENERADOS</sourceObjSchema>
+<sourceObjName>RUTA_ARCHIVO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_GENERACION" id="C24D7C3A-77D2-8D56-FBB5-E9D1CA4683FE">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>DOCUMENTOS_GENERADOS</sourceObjSchema>
+<sourceObjName>FECHA_GENERACION</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C969F541-25DC-1884-C537-C173E70807B4" name="PK_DOCUMENTOS_GENERADOS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_DOCUMENTOS_GENERADOS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="057C935E-EE81-9942-3B97-4835E95A335D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5F6FDED-A150-8269-5B67-9F4B55AF98FE" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="PK_DOCUMENTOS_GENERADOS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_DOCUMENTOS_GENERADOS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="057C935E-EE81-9942-3B97-4835E95A335D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BF320D4-28EA-0A45-5237-9C562A387C4A" name="FK_DOCS_PACIENTE">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9355AE1F-7636-9F7E-089A-29538788EC58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

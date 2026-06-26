@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="423E8BB6-FB5F-9D27-89E2-6853F5376929" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="EPS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>EPS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EPS" id="8FA5DFBD-E696-2A74-3F62-5055E69390DB">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>EPS</sourceObjSchema>
+<sourceObjName>ID_EPS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_EPS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO" id="81305082-8CD0-E159-2F66-1316E1E09405">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>EPS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="26A9303B-ACAE-770B-D5B8-EFF96D8ACFE1">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>EPS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="4E5B7C04-0438-6E52-19DD-3D81879C29EF">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>EPS</sourceObjSchema>
+<sourceObjName>NIT</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="13BD4764-6840-3B93-0C49-AB31441523A3">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>EPS</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="4913148D-A091-F26D-FA41-11B3BDC05319">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>EPS</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<constraintName>CK_EPS_ESTADO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;ACTIVA&apos;" description=""/>
+<valueDef value="&apos;INACTIVA&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;ACTIVA&apos;</defaultValue>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8202CBDE-137E-0FC2-B389-5607CE6F3C75" name="PK_EPS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_EPS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FA5DFBD-E696-2A74-3F62-5055E69390DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="194D9F31-AB62-FF68-B546-D44AB039694B" name="UQ_EPS_CODIGO">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_EPS_CODIGO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81305082-8CD0-E159-2F66-1316E1E09405"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B463CF5E-DB25-E149-6DBE-C273D45D588F" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="PK_EPS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_EPS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FA5DFBD-E696-2A74-3F62-5055E69390DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FD2E1E8-F15A-8C81-909D-815AA4C100C6" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="UQ_EPS_CODIGO">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_EPS_CODIGO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81305082-8CD0-E159-2F66-1316E1E09405"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

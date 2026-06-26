@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SaludYa BD" id="5BB2317C-267A-587A-E2E7-EEB97FD314D9" version="3.5">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:43:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5BB2317C-267A-587A-E2E7-EEB97FD314D9</designId>
+</OSDM_Design>

@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="783B0F4A-C6F1-E1CC-600B-07C81BAECC68" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="CENTROS_SALUD">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>CENTROS_SALUD</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CENTRO" id="B1CDBC2D-4A48-EDB4-8092-B9182EFD6480">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>ID_CENTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_CENTROS_SALUD&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="6F1C963B-882E-27EC-E860-C0EE7DF1F40C">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="651841EE-0602-93D0-636C-BEDAA1E22057">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO" id="1C9BB11F-84DB-B26E-741A-551F9D7CB865">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>MUNICIPIO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="766182E8-5997-3015-13F0-A498CF0E614B">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>LATITUD</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="D694E181-E6F3-D90E-81F9-D430EB915E56">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>LONGITUD</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="A6983C3E-0033-8B8C-CC22-582611925F49">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO" id="1C30FAD1-7FF4-83E0-10D1-F997485F5AAD">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>HORARIO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="97A89F5E-1B0A-70CA-06C8-09B80B894FBA">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>TIPO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="4922E5F3-BBC6-CCDB-27C5-71AADFB4DA84">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<constraintName>CK_CENTROS_ESTADO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;ACTIVO&apos;" description=""/>
+<valueDef value="&apos;INACTIVO&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="95F9DA6D-DE21-44D5-A4F6-D5C7023E7033">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>CENTROS_SALUD</sourceObjSchema>
+<sourceObjName>FECHA_REGISTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58BE09EB-E5E6-ABB7-AEEF-3298C44780A1" name="PK_CENTROS_SALUD">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_CENTROS_SALUD</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1CDBC2D-4A48-EDB4-8092-B9182EFD6480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E721E5A5-A192-638F-FA80-59F99E0478B0" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="PK_CENTROS_SALUD">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_CENTROS_SALUD</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1CDBC2D-4A48-EDB4-8092-B9182EFD6480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

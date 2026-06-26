@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0711DD7B-0D1E-92A5-D16E-6C2FCDB0BD23" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="AUDITORIA_CENTROS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>AUDITORIA_CENTROS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AUDITORIA" id="0021642A-E39C-0207-1B8A-6CEBFF950D13">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>AUDITORIA_CENTROS</sourceObjSchema>
+<sourceObjName>ID_AUDITORIA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_AUDITORIA_CENTROS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CENTRO" id="C4B60B13-70D5-2401-3ADC-166D1E472D51">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>AUDITORIA_CENTROS</sourceObjSchema>
+<sourceObjName>ID_CENTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPERACION" id="683B2689-1475-684F-850E-925125724ECB">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>AUDITORIA_CENTROS</sourceObjSchema>
+<sourceObjName>OPERACION</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<constraintName>CK_AUDITORIA_OPER</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;DELETE&apos;" description=""/>
+<valueDef value="&apos;INSERT&apos;" description=""/>
+<valueDef value="&apos;UPDATE&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_BD" id="3484D06E-66A6-C569-2F72-C059B75712A5">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>AUDITORIA_CENTROS</sourceObjSchema>
+<sourceObjName>USUARIO_BD</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="610EF302-3672-B4C2-74AB-A5599AA954B5">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>AUDITORIA_CENTROS</sourceObjSchema>
+<sourceObjName>DETALLE</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_OPERACION" id="BC95D2E1-B0D6-8BB9-C39C-F6B2DCDD9F81">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>AUDITORIA_CENTROS</sourceObjSchema>
+<sourceObjName>FECHA_OPERACION</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04667468-BBE5-B993-C0F2-D8D6558308DD" name="PK_AUDITORIA_CENTROS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_AUDITORIA_CENTROS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0021642A-E39C-0207-1B8A-6CEBFF950D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="773F5DBB-EE84-4561-D2C4-265FCF18A11A" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="PK_AUDITORIA_CENTROS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_AUDITORIA_CENTROS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0021642A-E39C-0207-1B8A-6CEBFF950D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

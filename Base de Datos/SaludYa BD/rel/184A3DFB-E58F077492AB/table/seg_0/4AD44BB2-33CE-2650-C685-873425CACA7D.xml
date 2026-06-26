@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AD44BB2-33CE-2650-C685-873425CACA7D" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="REGISTRO_VACUNAS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>REGISTRO_VACUNAS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REGISTRO" id="915DE3C3-E23D-F037-5165-E1D59C6339B6">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>REGISTRO_VACUNAS</sourceObjSchema>
+<sourceObjName>ID_REGISTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_REGISTRO_VACUNAS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MENOR" id="62B15C79-B87B-39B6-D66B-0C0A82FBB3C0">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>REGISTRO_VACUNAS</sourceObjSchema>
+<sourceObjName>ID_MENOR</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ECCE280-6940-1724-B73E-69101A4FD4C6" referredColumn="C7348CFA-FE05-5517-9BCA-E55D9E017629"/>
+</associations>
+</Column>
+<Column name="ID_VACUNA" id="BF30BBE4-0E8D-5DF1-693B-A8F669570D12">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>REGISTRO_VACUNAS</sourceObjSchema>
+<sourceObjName>ID_VACUNA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="366022DE-0600-9632-9AC7-56C18CB8397A" referredColumn="38BDCAF4-1634-CCB8-5967-07C42BA192B3"/>
+</associations>
+</Column>
+<Column name="ID_ESQUEMA" id="A487D1DA-55FF-0518-0BB5-9F104F1827C3">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>REGISTRO_VACUNAS</sourceObjSchema>
+<sourceObjName>ID_ESQUEMA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4139BC88-6557-CD4C-0515-D3A08F3DA833" referredColumn="5F07584F-8567-C02F-867F-DC0DAB477329"/>
+</associations>
+</Column>
+<Column name="ID_CENTRO" id="0A379FA7-04F2-1F72-EBC0-656B6C9EA587">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>REGISTRO_VACUNAS</sourceObjSchema>
+<sourceObjName>ID_CENTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F931798-E9A4-9EF4-0DB5-D570D3A910F3" referredColumn="B1CDBC2D-4A48-EDB4-8092-B9182EFD6480"/>
+</associations>
+</Column>
+<Column name="FECHA_APLICACION" id="9F162BDD-9FE0-A7AE-06DD-C3F2E13E155A">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>REGISTRO_VACUNAS</sourceObjSchema>
+<sourceObjName>FECHA_APLICACION</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PROXIMA_DOSIS" id="8AB47388-DB3A-8616-D6B0-259B3D93A14A">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>REGISTRO_VACUNAS</sourceObjSchema>
+<sourceObjName>FECHA_PROXIMA_DOSIS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6A3D947-C484-6B2C-64FE-8856D2DE49D1" name="PK_REGISTRO_VACUNAS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_REGISTRO_VACUNAS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="915DE3C3-E23D-F037-5165-E1D59C6339B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="066AB8B2-E252-654A-E2A5-8A70AD9F65EA" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="PK_REGISTRO_VACUNAS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_REGISTRO_VACUNAS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="915DE3C3-E23D-F037-5165-E1D59C6339B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F6F9996-B032-4FAF-0327-D296974BF769" name="FK_REGVAC_CENTRO">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A379FA7-04F2-1F72-EBC0-656B6C9EA587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3607D4EC-D2CB-648B-CD15-0F2E1F7A0975" name="FK_REGVAC_ESQUEMA">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A487D1DA-55FF-0518-0BB5-9F104F1827C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50FCBA6E-A7D1-9EE0-1B95-AE8B92A4E7AB" name="FK_REGVAC_MENOR">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62B15C79-B87B-39B6-D66B-0C0A82FBB3C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9315FE6E-1B08-3A2B-757B-8A95DD05602F" name="FK_REGVAC_VACUNA">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF30BBE4-0E8D-5DF1-693B-A8F669570D12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

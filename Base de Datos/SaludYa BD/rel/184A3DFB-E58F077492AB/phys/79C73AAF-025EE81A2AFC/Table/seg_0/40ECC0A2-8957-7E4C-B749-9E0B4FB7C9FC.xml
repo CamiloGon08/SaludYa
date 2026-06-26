@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="VACUNAS" directorySegmentName="seg_0" id="40ECC0A2-8957-7E4C-B749-9E0B4FB7C9FC">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<schemaObject>60588CFF-194A-5447-DED2-945297AC3C8E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BF2252AD-5B87-1515-E3B7-0C881D0EB600</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPCION" id="048A5595-B99F-0359-9E21-158A0FD96EEE">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENFERMEDAD_PREVIENE" id="109402D6-1E96-935B-DD22-DF70E8C6DE22">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_VACUNA" id="38BDCAF4-1634-CCB8-5967-07C42BA192B3">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_VACUNAS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TOTAL_DOSIS" id="A71B5745-E7DB-CACB-460D-745B39A370B4">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="D868472F-ABC2-950C-B816-B6C59B2C8035">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_VACUNAS" id="865F23B2-A301-3349-0F04-7A8906510C50">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<schemaObject>60588CFF-194A-5447-DED2-945297AC3C8E</schemaObject>
+<segment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_VACUNAS" id="032A598B-2047-9D5F-47D6-BCD4C18F1694">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<segment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+<existingIndex>865F23B2-A301-3349-0F04-7A8906510C50</existingIndex>
+<indexSegment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

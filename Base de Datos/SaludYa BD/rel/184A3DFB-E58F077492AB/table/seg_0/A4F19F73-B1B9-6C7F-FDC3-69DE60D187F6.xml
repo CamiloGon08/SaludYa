@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4F19F73-B1B9-6C7F-FDC3-69DE60D187F6" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="ESQUEMAS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>ESQUEMAS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESQUEMA" id="5F07584F-8567-C02F-867F-DC0DAB477329">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>ESQUEMAS</sourceObjSchema>
+<sourceObjName>ID_ESQUEMA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_ESQUEMAS&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VACUNA" id="3965127D-5DD3-5E90-C923-3AC8D159B946">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>ESQUEMAS</sourceObjSchema>
+<sourceObjName>ID_VACUNA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A4C261F-BBC2-F68F-86FE-EE82827422AA" referredColumn="38BDCAF4-1634-CCB8-5967-07C42BA192B3"/>
+</associations>
+</Column>
+<Column name="NUMERO_DOSIS" id="E6B9E2C8-E486-2C89-A7BB-78205F0918AD">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>ESQUEMAS</sourceObjSchema>
+<sourceObjName>NUMERO_DOSIS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDAD_MESES" id="C1833AAD-5DD6-38A5-B08F-ACF2B966BF1B">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>ESQUEMAS</sourceObjSchema>
+<sourceObjName>EDAD_MESES</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B752C701-B14B-4463-4744-D159344A4872" name="PK_ESQUEMAS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_ESQUEMAS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F07584F-8567-C02F-867F-DC0DAB477329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15C092D7-BD6C-F6BE-FF86-3BAC905C4AD1" name="UQ_ESQUEMA_DOSIS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_ESQUEMA_DOSIS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3965127D-5DD3-5E90-C923-3AC8D159B946"/>
+<colUsage columnID="E6B9E2C8-E486-2C89-A7BB-78205F0918AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7412318-850F-323A-E588-BE4A6879A989" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="PK_ESQUEMAS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>PK_ESQUEMAS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F07584F-8567-C02F-867F-DC0DAB477329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDAD5DDD-6FB6-F5BE-80FF-536164EBA66E" schemaObject="60588CFF-194A-5447-DED2-945297AC3C8E" name="UQ_ESQUEMA_DOSIS">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>UQ_ESQUEMA_DOSIS</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3965127D-5DD3-5E90-C923-3AC8D159B946"/>
+<colUsage columnID="E6B9E2C8-E486-2C89-A7BB-78205F0918AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCB2B82D-83D4-A43F-DDA3-D0B27203CBEF" name="FK_ESQUEMAS_VACUNA">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3965127D-5DD3-5E90-C923-3AC8D159B946"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

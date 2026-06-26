@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="NOTIFICACIONES_PENDIENTES" directorySegmentName="seg_0" id="D222693D-60DA-EF47-C106-2C9B60FEABC2">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:37 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<schemaObject>60588CFF-194A-5447-DED2-945297AC3C8E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BF2252AD-5B87-1515-E3B7-0C881D0EB600</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIPO" id="030498B1-E0ED-C2B0-6BC5-80126ACD92FC">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>&apos;CORREO&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID_NOTIF" id="12F4EC38-7418-B379-CAA8-3C32AC72EF5F">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>&quot;SALUDYA&quot;.&quot;SEQ_NOTIF_PENDIENTES&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="REINTENTOS" id="15368D7C-E641-C638-BB3E-DFD451727534">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FECHA_PROGRAMACION" id="2B93D978-A37F-3EFD-ACD4-B15608737EAF">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FECHA_ENVIO" id="C7D8D6F7-B3CB-DD4D-ABD1-10D785CEE4E0">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="D346B056-6740-E63D-0032-517A903A0918">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<defaultValue>&apos;PENDIENTE&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DESTINATARIO" id="D9AC6A5A-FE55-A186-F15D-EEC42172EBE3">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENSAJE" id="EDE266E2-BB0B-E1BF-E4AD-A5300B5942EA">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:38 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_NOTIF_PENDIENTES" id="50B968CE-04C0-BC79-FFF7-66BA22C6E68F">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:39 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<schemaObject>60588CFF-194A-5447-DED2-945297AC3C8E</schemaObject>
+<segment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_NOTIF_PENDIENTES" id="11DBB074-0562-B65F-6B53-FDDC1D52F79B">
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:40 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<segment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</segment>
+<tableSpace>259B03DB-BCBA-A284-4DB5-C86620B24FFC</tableSpace>
+<existingIndex>50B968CE-04C0-BC79-FFF7-66BA22C6E68F</existingIndex>
+<indexSegment>DE70AAA6-5596-F71C-6A88-EDB32CF93412</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

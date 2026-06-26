@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE0C02DA-0604-4B5C-FD0D-0E0C081462E4" containerWithKeyObject="695B481F-FE89-C321-C5B0-EF4F1464B152" localFKIndex="670BB5EF-45FD-2244-9669-7D2F35D6D9AE" name="FK_CENTRO_EPS_CENTRO">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>FK_CENTRO_EPS_CENTRO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<referredTableLongName>SALUDYA.CENTROS_SALUD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>783B0F4A-C6F1-E1CC-600B-07C81BAECC68</referredTableID>
+<keyObject>58BE09EB-E5E6-ABB7-AEEF-3298C44780A1</keyObject>
+<referredKeyID>58BE09EB-E5E6-ABB7-AEEF-3298C44780A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CENTRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

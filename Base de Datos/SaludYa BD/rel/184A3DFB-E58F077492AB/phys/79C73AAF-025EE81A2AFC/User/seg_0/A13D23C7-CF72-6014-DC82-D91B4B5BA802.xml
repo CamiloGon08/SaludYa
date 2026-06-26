@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SALUDYA" directorySegmentName="seg_0" id="A13D23C7-CF72-6014-DC82-D91B4B5BA802">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjName>SALUDYA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:36 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<schemaObject>60588CFF-194A-5447-DED2-945297AC3C8E</schemaObject>
+</UserOraclev10g>

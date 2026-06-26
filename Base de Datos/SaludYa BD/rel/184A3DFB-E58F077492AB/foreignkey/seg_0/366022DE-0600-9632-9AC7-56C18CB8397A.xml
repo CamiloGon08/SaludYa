@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="366022DE-0600-9632-9AC7-56C18CB8397A" containerWithKeyObject="4AD44BB2-33CE-2650-C685-873425CACA7D" localFKIndex="9315FE6E-1B08-3A2B-757B-8A95DD05602F" name="FK_REGVAC_VACUNA">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>FK_REGVAC_VACUNA</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<referredTableLongName>SALUDYA.VACUNAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40ECC0A2-8957-7E4C-B749-9E0B4FB7C9FC</referredTableID>
+<keyObject>032A598B-2047-9D5F-47D6-BCD4C18F1694</keyObject>
+<referredKeyID>032A598B-2047-9D5F-47D6-BCD4C18F1694</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_VACUNA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

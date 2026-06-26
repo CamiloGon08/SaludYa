@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFAC56B7-2D8D-C5E1-0524-E2E963558919" containerWithKeyObject="6B0CC922-49B5-C15B-AE1A-5F20D05D1FCD" localFKIndex="D6B7E5A6-F073-FA1A-4319-C1F9CECE41BE" name="FK_CITAS_MEDICO">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>FK_CITAS_MEDICO</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<referredTableLongName>SALUDYA.MEDICOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB194971-C4E4-C615-51FA-B1C994B6236F</referredTableID>
+<keyObject>DF32720D-470F-DBEC-8258-97E806659606</keyObject>
+<referredKeyID>DF32720D-470F-DBEC-8258-97E806659606</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MEDICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

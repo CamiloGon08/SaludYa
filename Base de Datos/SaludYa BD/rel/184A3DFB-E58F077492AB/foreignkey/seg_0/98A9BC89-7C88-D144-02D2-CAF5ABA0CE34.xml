@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98A9BC89-7C88-D144-02D2-CAF5ABA0CE34" containerWithKeyObject="B2BF482D-3354-DE55-4BC8-F254678B7889" localFKIndex="92379484-E22A-B069-89B9-4A9030256B77" name="FK_DONACIONES_DONANTE">
+<sourceConnName>SALUDYA</sourceConnName>
+<sourceObjSchema>SALUDYA</sourceObjSchema>
+<sourceObjName>FK_DONACIONES_DONANTE</sourceObjName>
+<createdBy>Camilo Gonzalez</createdBy>
+<createdTime>2026-06-23 01:44:43 UTC</createdTime>
+<ownerDesignName>SaludYa BD</ownerDesignName>
+<referredTableLongName>SALUDYA.DONANTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>626D3115-DDAE-2DAA-D9A3-7581B3616F68</referredTableID>
+<keyObject>C6AC1447-EC1E-74C3-6F7E-D4FDB4888023</keyObject>
+<referredKeyID>C6AC1447-EC1E-74C3-6F7E-D4FDB4888023</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DONANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
