@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SALUDYA" directorySegmentName="seg_0" id="60588CFF-194A-5447-DED2-945297AC3C8E">
-<createdBy>Camilo Gonzalez</createdBy>
-<createdTime>2026-06-23 01:44:37 UTC</createdTime>
-<ownerDesignName>SaludYa BD</ownerDesignName>
-</SchemaObject>
